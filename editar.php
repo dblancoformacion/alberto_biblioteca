@@ -5,9 +5,11 @@
         <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
         <title>Editar Biblioteca</title>
+        
     </head>
     <body>
         <div class="container">
+            <h3>Añadir Libros</h3>
             <table class="table">
                 <thead class="thead-light">
     <tr>

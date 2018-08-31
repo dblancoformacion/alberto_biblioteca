@@ -22,7 +22,7 @@
 	<script type="text/javascript" src="index.js"></script>
 </head>
 <body>
-  //Menú Superior
+  <!--Menú Superior-->
   <div class="pos-f-t">
   <nav class="navbar navbar-dark bg-info">
     <div class="dropdown">

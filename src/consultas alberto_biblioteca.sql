@@ -29,9 +29,18 @@ SELECT titulo FROM libros JOIN editoriales USING(id_editorial) WHERE editorial="
 
 SELECT titulo FROM libros JOIN reproducen USING (id_libro) WHERE id_tematica=(SELECT id_tematica FROM tematicas WHERE tematica="informática");
 
-/*Libros de Historia */
+/*Libros de la Guerra Civil */
 
 SELECT titulo FROM libros JOIN reproducen USING (id_libro) WHERE id_tematica=(SELECT id_tematica FROM tematicas WHERE tematica="guerra civil española");
+
+
+/*Buscar subtemáticas - Ejemplo:Subtemáticas de Historia*/
+
+SELECT tematica FROM tematicas WHERE id_padre=(SELECT id_tematica FROM tematicas WHERE tematica="Historia");
+
+/*Buscar temáticas generales*/
+
+SELECT tematica FROM tematicas WHERE id_padre=1;
 
 
 
